@@ -1,0 +1,267 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+#navbar{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar img{
+    width: 60px;
+    margin: 8px 50px;
+}
+#navbar li{
+    list-style: none;
+    padding: 0px 50px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: #000000; 
+    font-family: 'Borel', cursive;
+}
+#navbar li a:hover{
+    border-bottom:2px solid #000000;
+}
+#main{height: 100vh;
+width: 100%;
+}
+#home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.356);
+}
+#logo1 img{
+    width: 450px;
+}
+#home div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#home div h1{
+    font-size: 40px;
+    color: #000000;
+    margin-top: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+#home p{
+    font-size: 20px;
+    margin: 0px 40px;
+    color: #000000;
+    font-family: 'Mukta', sans-serif;
+
+}
+.button:hover{
+    color: #ffffff;
+    background-color: #000000;
+    
+}
+#services{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.card{
+    width: 170px;
+    height: 265px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+.overlay{
+    text-align: center;
+    opacity: 0;
+}
+.overlay h4{
+    font-size: 18px;
+    padding-top: 32px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+
+}
+.overlay p{
+    font-size: 11px;
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Mukta', sans-serif;
+
+}
+#card1{
+    background-image: url(seo.jpg);
+    background-size: cover;
+    background-position: -60px 0px;
+
+    
+}
+#card2{
+background-image: url(web.png);
+background-size: cover;
+background-position: -106px 0px;
+
+}
+#card3{
+background: url(handle.png);
+background-size: cover;
+background-position: -11px 0px;
+}
+#card4{
+background-image: url(ads.png); 
+background-size: cover;
+background-position: -7px 0px;
+}
+#card1:hover #overlay1{
+    opacity: 1;
+}
+#card1:hover{
+    background-image: none;
+    background-color: #ffffff;
+    transform: rotate3d(0, 1, 0, 360deg);
+}
+#card2:hover #overlay2{
+    opacity: 1;
+}
+#card2:hover{
+    background-image: none;
+    background-color: #ffffff;
+    transform: rotate3d(0, 1, 0, 360deg);
+}
+#card3:hover #overlay3{
+    opacity: 1;
+}
+#card3:hover{
+    background-image: none;
+    background-color: #ffffff;
+    transform: rotate3d(0, 1, 0, 360deg);
+}
+#card4:hover #overlay4{
+    opacity: 1;
+}
+#card4:hover{
+    background-image: none;
+    background-color: #ffffff;
+    transform: rotate3d(0, 1, 0, 360deg);
+}
+#ser{
+    width: 180px;
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 50px;
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#info{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 38px;
+    font-family: 'Mukta', sans-serif;
+    
+}
+#info h5{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    background-color: #ffffff;
+}
+#contact h3{
+    color: #000000;
+    margin: 15px 25px;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom:2px solid #000000;
+}
+.box h2{
+    color: #000000;
+    padding: 0px 40px;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+
+}
+.box a{
+    padding: 0px 0px;
+    color: #000000;
+    margin: 0px 51px;
+    font-size: 15px;
+    font-family: 'Mukta', sans-serif;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    height: 48px;
+    background-color: #000000;
+}
+footer h6{
+    color: white;
+    font-size: 15px;
+    font-family: 'Mukta', sans-serif;
+
+}
+footer p{
+    background-color: #000000;
+    font-family: 'Mukta', sans-serif;
+
+}
+.button{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.button1{
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2px 13px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.button1:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.line{
+    width: 28px;
+    height: 5px;
+    background: #000000;
+    margin: 2px;
+}
+#img{
+    display: flex;
+}

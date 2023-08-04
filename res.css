@@ -1,0 +1,43 @@
+#logo1{
+    position: absolute;
+    opacity: 0;
+}
+#container{
+    flex-direction: column;
+    align-content: center;
+}
+#navbar{
+    flex-direction: column;
+}
+#navbar ul{
+    position: absolute;
+    opacity: 0;
+    width: 0px;
+}
+#img{
+    justify-content: center;
+}
+#info{
+    width: 60%;
+}
+#home{
+    overflow-x: hidden;
+}
+#services{
+    overflow-x:hidden;
+    overflow-y:hidden;
+    height: 260vh;
+}
+#contact{
+    overflow-x: hidden;
+    
+}
+#logo1 img{
+    width: 20%;
+}
+#home div h1 {
+    font-size: 38px;
+}
+.card{
+    margin: 10px 0px;
+}
